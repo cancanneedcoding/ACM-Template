@@ -1,6 +1,6 @@
-
+/*
 单调栈：寻找下一个大于等于自己的元素
-
+*/
 std::vector<int> nextmaxstack(const std::vector<int> &nums)
 {
     int n = nums.size();
@@ -21,8 +21,9 @@ std::vector<int> nextmaxstack(const std::vector<int> &nums)
     return result;
 }
 
+/*
 单调栈：寻找下一个小于等于自己的元素
-
+*/
 std::vector<int> nextminstack(const std::vector<int> &nums)
 {
     int n = nums.size();
@@ -43,8 +44,9 @@ std::vector<int> nextminstack(const std::vector<int> &nums)
     return result;
 }
 
+/*
 单调栈：寻找上一个大于等于自己的元素
-
+*/
 std::vector<int> premaxstack(const std::vector<int> &nums)
 {
     int n = nums.size();
@@ -65,9 +67,9 @@ std::vector<int> premaxstack(const std::vector<int> &nums)
     return result;
 }
 
-
+/*
 单调栈：寻找上一个小于等于自己的元素
-
+*/
 std::vector<int> preminstack(const std::vector<int> &nums)
 {
     int n = nums.size();
